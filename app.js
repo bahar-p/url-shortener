@@ -18,8 +18,8 @@ app.use(express.static(path.join(__dirname,'controler')));
 
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'bahar',
-    password : 'jinGuligu.1'
+    user     : '',
+    password : ''
 });
 
 //create table
